@@ -5,8 +5,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 8 * * 1' # At 8:00 on Monday
 
 env:
   GIT_COMMIT_SHA: ${{ github.sha }}
